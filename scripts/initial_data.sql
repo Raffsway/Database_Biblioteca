@@ -39,7 +39,7 @@ INSERT INTO "CLASSIFICAÇÃO_LIVRO" ("id_livro", "id_categoria") VALUES
 (5, 3);  -- 'Assassinato no Expresso do Oriente' na categoria 'Fantasia'
 
 -- Inserir dados na tabela EMPRESTIMO
-INSERT INTO "EMPRESTIMO" ("id_emprestimo", "id_matricula", "id_livro", "dt_emprestimo", "dt_devolucao", "dt_devolvido") VALUES
+INSERT INTO "EMPRESTIMO" ("id_matricula", "id_livro", "dt_emprestimo", "dt_devolucao", "dt_devolvido") VALUES
 (1, 1, '2024-09-01', '2024-09-15', '2024-09-14'),
 (2, 2, '2024-09-02', '2024-09-16', NULL),
 (3, 3, '2024-09-03', '2024-09-17', '2024-09-16'),
