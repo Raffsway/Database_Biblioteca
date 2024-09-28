@@ -6,7 +6,7 @@ Este projeto consiste na criação de um banco de dados de uma biblioteca utiliz
 
 ### Arquivos Incluídos:
 - **create_tables.sql**: Script SQL para a criação das tabelas principais do banco de dados.
-- **info_emprestimo.sql**: Script SQL para armazenar e organizar informações sobre os empréstimos de livros.
+- **info_emprestimo.sql**: Script SQL para consultar informações sobre os empréstimos de livros.
 - **initial_data.sql**: Script SQL para preencher o banco de dados com dados iniciais.
 
 ## Tabelas do Banco de Dados
