@@ -22,7 +22,7 @@ JOIN
 JOIN 
     "ALUNO" ON "EMPRESTIMO"."id_matricula" = "ALUNO"."id_matricula"
 WHERE 
-    "EMPRESTIMO"."id_emprestimo" = 1-- Filtrando pelo id_emprestimo
+    "EMPRESTIMO"."id_emprestimo" = 1 -- Filtrando pelo id_emprestimo
 GROUP BY 
     "EMPRESTIMO"."id_emprestimo", 
     "ALUNO"."nome",
