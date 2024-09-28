@@ -5,7 +5,7 @@ Este projeto consiste na criação de um banco de dados de uma biblioteca utiliz
 ## Modelo Conceitual
 ![Moodelo_Conceitual](diagram/Modelo_Conceitual.png)
 
-## Modelo_Lógico
+## Modelo Lógico
 ![Modelo_Lógico](diagram/Modelo_Lógico.png)
 
 ## Estrutura do Projeto
