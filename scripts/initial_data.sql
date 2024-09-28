@@ -31,7 +31,7 @@ INSERT INTO "ALUNO" ("id_matricula", "nome", "CPF", "sexo", "email", "telefone",
 (5, 'Fernanda Lima', '56789012345', 'F', 'fernanda.lima@email.com', '(79) 95555-0005', '2002-07-30');
 
 -- Inserir dados na tabela CLASSIFICAÇÃO_LIVRO
-INSERT INTO "CLASSIFICAÇÃO_LIVRO" ("id_livro", "id_categoria") VALUES
+INSERT INTO "CLASSIFICACAO_LIVRO" ("id_livro", "id_categoria") VALUES
 (1, 1),  -- 'Harry Potter e a Pedra Filosofal' na categoria 'Ficção'
 (2, 1),  -- 'Guerra dos Tronos' na categoria 'Ficção'
 (3, 3),  -- 'It: A Coisa' na categoria 'Fantasia'
