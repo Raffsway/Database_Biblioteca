@@ -1,6 +1,6 @@
 # Biblioteca - Projeto de Banco de Dados
 
-Este projeto consiste na criação de um banco de dados de uma biblioteca utilizando PostgreSQL. O banco de dados foi estruturado para gerenciar informações sobre livros, autores, membros, empréstimos e devoluções, de forma a simular um sistema básico de controle de uma biblioteca.
+Este projeto consiste na criação de um banco de dados de uma biblioteca utilizando `PostgreSQL`. O banco de dados foi estruturado para gerenciar informações sobre livros, autores, membros, empréstimos e devoluções, de forma a simular um sistema básico de controle de uma biblioteca.
 
 ## Estrutura do Projeto
 
