@@ -13,8 +13,8 @@ CREATE TABLE "ALUNO"(
     "nome" VARCHAR(50) NOT NULL,
     "CPF" VARCHAR(11) NOT NULL UNIQUE, -- CPF UNICO
     "sexo" VARCHAR(1) NOT NULL,
-    "email" VARCHAR(100) NOT NULL,
-    "telefone" VARCHAR(20) NOT NULL,
+    "email" VARCHAR(100) NOT NULL UNIQUE, -- EMAIL UNICO
+    "telefone" VARCHAR(20) NOT NULL UNIQUE, -- TELEFONE UNICO
     "dt_nascimento" DATE NOT NULL,
     PRIMARY KEY ("id_matricula")
 );
