@@ -52,6 +52,8 @@ INSERT INTO "LIVRO" ("id_livro", "id_autor", "titulo", "ano_publicacao", "editor
 (13, 13, 'Cem Anos de Solidão', 1967, 'Record', 6),
 (14, 14, 'O Retrato de Dorian Gray', 1890, 'Penguin', 5),
 (15, 15, 'Admirável Mundo Novo', 1932, 'Biblioteca Azul', 4);
+(16, 10, 'Coraline', 2002, 'Rocco', 3);
+
 
 -- Inserir dados na tabela ALUNO
 INSERT INTO "ALUNO" ("id_matricula", "nome", "CPF", "sexo", "email", "telefone", "dt_nascimento") VALUES
@@ -83,7 +85,9 @@ INSERT INTO "CLASSIFICACAO_LIVRO" ("id_livro", "id_categoria") VALUES
 (13, 8), -- 'Cem Anos de Solidão' na categoria 'Romance'
 (14, 13), -- 'O Retrato de Dorian Gray' na categoria 'Clássico'
 (15, 11); -- 'Admirável Mundo Novo' na categoria 'Distopia'
-
+(16, 3),  -- 'Coraline' na categoria 'Fantasia'
+(16, 12), -- 'Coraline' na categoria 'Terror'
+(16, 15); -- 'Coraline' na categoria 'Infantil'
 
 -- Inserir dados na tabela EMPRESTIMO
 INSERT INTO "EMPRESTIMO" ("id_matricula", "id_livro", "dt_emprestimo", "dt_devolucao", "dt_devolvido") VALUES
